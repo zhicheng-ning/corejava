@@ -3,6 +3,7 @@ import java.io.*;
 import javax.swing.*;
 
 /**
+ * JFrame 图形GUI
  * A program for viewing images.
  * @version 1.31 2018-04-10
  * @author Cay Horstmann
