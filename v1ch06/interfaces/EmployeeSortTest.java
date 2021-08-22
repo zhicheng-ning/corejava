@@ -16,7 +16,7 @@ public class EmployeeSortTest
       staff[0] = new Employee("Harry Hacker", 35000);
       staff[1] = new Employee("Carl Cracker", 75000);
       staff[2] = new Employee("Tony Tester", 38000);
-
+      // Employee类实现Comparable<T>接口，实现compareTo方法，从而支持Arrays.sort方法
       Arrays.sort(staff);
 
       // print out information about all Employee objects
