@@ -5,11 +5,15 @@ package timer;
    @author Cay Horstmann
 */
 
-import java.awt.*;
-import java.awt.event.*;
-import java.time.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.time.Instant;
 
+/**
+ * Timer定时器
+ */
 public class TimerTest
 {  
    public static void main(String[] args)
@@ -28,7 +32,7 @@ public class TimerTest
 }
 
 class TimePrinter implements ActionListener
-{  
+{
    public void actionPerformed(ActionEvent event)
    {  
       System.out.println("At the tone, the time is " 
